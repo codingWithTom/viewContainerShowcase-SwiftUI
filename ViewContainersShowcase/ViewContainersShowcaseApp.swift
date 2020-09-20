@@ -11,7 +11,7 @@ import SwiftUI
 struct ViewContainersShowcaseApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabScene()
         }
     }
 }
