@@ -44,7 +44,8 @@ struct FlipContainerView<Content: View>: View {
 struct FlipModifier: ViewModifier {
   let angle: Angle
   func body(content: Content) -> some View {
-    content.rotation3DEffect(angle, axis: (x: 0.0, y: 1.0, z: 0.0))
+    content
+      .rotation3DEffect(angle, axis: (x: 0.0, y: 1.0, z: 0.0))
   }
 }
 
