@@ -18,6 +18,7 @@
 		40805526251648F7005E3ED1 /* FlipContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40805525251648F7005E3ED1 /* FlipContainerView.swift */; };
 		4080552825164B7F005E3ED1 /* CardStackContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080552725164B7F005E3ED1 /* CardStackContainerView.swift */; };
 		4080552A25165259005E3ED1 /* SidebarContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4080552925165259005E3ED1 /* SidebarContainer.swift */; };
+		40C2C66E274C86A100FFBCCA /* StoryContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C2C66D274C86A100FFBCCA /* StoryContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		40805525251648F7005E3ED1 /* FlipContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipContainerView.swift; sourceTree = "<group>"; };
 		4080552725164B7F005E3ED1 /* CardStackContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardStackContainerView.swift; sourceTree = "<group>"; };
 		4080552925165259005E3ED1 /* SidebarContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarContainer.swift; sourceTree = "<group>"; };
+		40C2C66D274C86A100FFBCCA /* StoryContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 				40805525251648F7005E3ED1 /* FlipContainerView.swift */,
 				4080552725164B7F005E3ED1 /* CardStackContainerView.swift */,
 				4080552925165259005E3ED1 /* SidebarContainer.swift */,
+				40C2C66D274C86A100FFBCCA /* StoryContainer.swift */,
 			);
 			path = ViewContainers;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				4080552325164893005E3ED1 /* SampleView.swift in Sources */,
 				4080552825164B7F005E3ED1 /* CardStackContainerView.swift in Sources */,
 				4080552A25165259005E3ED1 /* SidebarContainer.swift in Sources */,
+				40C2C66E274C86A100FFBCCA /* StoryContainer.swift in Sources */,
 				408054F8251647BA005E3ED1 /* ContentView.swift in Sources */,
 				408054F6251647BA005E3ED1 /* ViewContainersShowcaseApp.swift in Sources */,
 				40805526251648F7005E3ED1 /* FlipContainerView.swift in Sources */,
@@ -449,7 +453,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ViewContainersShowcase/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ViewContainersShowcase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +474,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ViewContainersShowcase/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ViewContainersShowcase/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -20,6 +20,18 @@ struct SampleView: View {
   }
 }
 
+struct SampleImage: View {
+  let name: String
+  var body: some View {
+    GeometryReader { geometry in
+      Image(name)
+        .resizable()
+        .scaledToFill()
+        .frame(width: geometry.size.width, height: geometry.size.height)
+    }
+  }
+}
+
 struct SampleView_Previews: PreviewProvider {
   static var previews: some View {
     SampleView(color: .blue)

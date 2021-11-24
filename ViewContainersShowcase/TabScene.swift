@@ -10,14 +10,15 @@ import SwiftUI
 struct TabScene: View {
   var body: some View {
     TabView {
-      FlipContainerView (
-        frontView: {
-          SampleView(color: .blue)
-        },
-        backView: {
-          SampleView(color: .red)
-        }
-      ).tabItem {
+      StoryContainer(views: [
+        SampleImage(name: "image1"),
+        SampleImage(name: "image2"),
+        SampleImage(name: "image3"),
+        SampleImage(name: "image4"),
+        SampleImage(name: "image5")
+      ])
+        .clipped()
+      .tabItem {
         Image(systemName: "arrowshape.turn.up.forward.circle")
         Text("Flip")
       }
