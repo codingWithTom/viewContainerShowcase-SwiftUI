@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		406733CC27B354500079678E /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406733CB27B354500079678E /* CarouselView.swift */; };
+		406733CE27B35A890079678E /* VerticalCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406733CD27B35A890079678E /* VerticalCarousel.swift */; };
 		408054F6251647BA005E3ED1 /* ViewContainersShowcaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408054F5251647BA005E3ED1 /* ViewContainersShowcaseApp.swift */; };
 		408054F8251647BA005E3ED1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 408054F7251647BA005E3ED1 /* ContentView.swift */; };
 		408054FA251647BA005E3ED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 408054F9251647BA005E3ED1 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		406733CB27B354500079678E /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		406733CD27B35A890079678E /* VerticalCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalCarousel.swift; sourceTree = "<group>"; };
 		408054F2251647BA005E3ED1 /* ViewContainersShowcase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewContainersShowcase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		408054F5251647BA005E3ED1 /* ViewContainersShowcaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContainersShowcaseApp.swift; sourceTree = "<group>"; };
 		408054F7251647BA005E3ED1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +156,8 @@
 				4080552725164B7F005E3ED1 /* CardStackContainerView.swift */,
 				4080552925165259005E3ED1 /* SidebarContainer.swift */,
 				40C2C66D274C86A100FFBCCA /* StoryContainer.swift */,
+				406733CB27B354500079678E /* CarouselView.swift */,
+				406733CD27B35A890079678E /* VerticalCarousel.swift */,
 			);
 			path = ViewContainers;
 			sourceTree = "<group>";
@@ -286,9 +292,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4080552325164893005E3ED1 /* SampleView.swift in Sources */,
+				406733CE27B35A890079678E /* VerticalCarousel.swift in Sources */,
 				4080552825164B7F005E3ED1 /* CardStackContainerView.swift in Sources */,
 				4080552A25165259005E3ED1 /* SidebarContainer.swift in Sources */,
 				40C2C66E274C86A100FFBCCA /* StoryContainer.swift in Sources */,
+				406733CC27B354500079678E /* CarouselView.swift in Sources */,
 				408054F8251647BA005E3ED1 /* ContentView.swift in Sources */,
 				408054F6251647BA005E3ED1 /* ViewContainersShowcaseApp.swift in Sources */,
 				40805526251648F7005E3ED1 /* FlipContainerView.swift in Sources */,

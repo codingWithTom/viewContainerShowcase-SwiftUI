@@ -48,7 +48,46 @@ struct TabScene: View {
         Image(systemName: "sidebar.squares.leading")
         Text("Sidebar")
       }
+      CarouselView(views: [
+        randomRectangle(),
+        randomRectangle(),
+        randomRectangle(),
+        randomRectangle(),
+        randomRectangle()
+      ]).tabItem {
+        Image(systemName: "rectangle.on.rectangle.circle")
+        Text("Carousel")
+      }
+      VerticalCarouselView(views: [
+        randomScreenRectangle(),
+        randomScreenRectangle(),
+        randomScreenRectangle(),
+        randomScreenRectangle(),
+        randomScreenRectangle()
+      ]).tabItem {
+        Image(systemName: "l.joystick.tilt.down.fill")
+        Text("Vertical Carousel")
+      }
     }
+  }
+  
+  @ViewBuilder
+  private func randomRectangle() -> some View {
+    let colors: [Color] = [.orange, .green, .blue, .cyan, .red, .yellow]
+    RoundedRectangle(cornerRadius: 16)
+      .fill(colors.randomElement() ?? .orange)
+      .overlay(RoundedRectangle(cornerRadius: 16).stroke(.black))
+      .frame(width: 200, height: 150)
+  }
+  
+  @ViewBuilder
+  private func randomScreenRectangle() -> some View {
+    let colors: [Color] = [.orange, .green, .blue, .cyan, .red, .yellow]
+    let width = UIScreen.main.bounds.width * 0.90
+    RoundedRectangle(cornerRadius: 16)
+      .fill(colors.randomElement() ?? .orange)
+      .overlay(RoundedRectangle(cornerRadius: 16).stroke(.black))
+      .frame(width: width, height: width * 0.65)
   }
 }
 
